@@ -1,6 +1,6 @@
 # 🎆ASDA: An Anchor Self-guided Domain Adaptation Method for Cross-spatiotemporal Cloud Detection in High-resolution Remote Sensing Images 🎆
 
-**This repository contains the official Pytorch implementation of training & evaluation code for** [[ASDA](github.com/gasking/ASDA)]🔥
+**This repository contains the official Pytorch implementation of training & evaluation code for** [[ASDA](http://github.com/gasking/ASDA)]🔥
 
 <div align="center">
   <img src="./asset/figure1.png" height="400">
