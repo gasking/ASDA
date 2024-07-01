@@ -1,2 +1,0 @@
-HRC_WHU\images\2023_10_02_18_07_58_0_0.jpg HRC_WHU\labels\2023_10_02_18_07_58_0_0.png
-HRC_WHU\images\2023_10_02_18_07_58_1_1.jpg HRC_WHU\labels\2023_10_02_18_07_58_1_1.png
