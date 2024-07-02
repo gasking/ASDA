@@ -81,6 +81,7 @@ tensorboardX==2.6.2.2
 </p>
 
 ## Training
+### The training file, after the mid-draft, will be open for readers to access for validation
 * **Check out bash.sh for training file configuration**
   * ***Step1 : The teacher model is trained for pseudo-label generation***
   * ***Step2: Split the in-domain samples accrding to the entropy value***
