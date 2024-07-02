@@ -269,34 +269,10 @@ if __name__ == '__main__':
             #                               熵值
             #------------------------------------------------------------------------#
             targetmap = prob2entropy(F.softmax(pred))
-
-
-
-
-
-
-
-
-
-
-
-
-
             lists.append([F.softmax(pred),targetname[0],targetpng,targetmap,targetmap.sum().data.item()])
-
-
 
     # task = Thread(target = rank.update,args=(lists,args))
     #
     # task.start()
 
-
-
-
-
-
     rank.update(lists,args)
-
-
-
-
