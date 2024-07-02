@@ -99,7 +99,7 @@ tensorboardX==2.6.2.2
  The code is released under the MIT license[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT).
 
 ## Relevant Projects
-***[1] Semi-Supervised Semantic Segmentation Using Unreliable Pseudo-Labels  - CVPR [[arXiv](https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2203.03884.pdf) [code](https://github.com/Haochen-Wang409/U2PL)]*** 
-***[2] Semantic distribution-aware contrastive adaptation for semantic segmentation  - IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE*** [**[arXiv](https://arxiv.org/abs/2105.05013) [code](https://github.com/BIT-DA/SDCA)**]
+* **[1] Semi-Supervised Semantic Segmentation Using Unreliable Pseudo-Labels  - CVPR [[arXiv](https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2203.03884.pdf) [code](https://github.com/Haochen-Wang409/U2PL)]*** 
+* **[2] Semantic distribution-aware contrastive adaptation for semantic segmentation  - IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE*** [**[arXiv](https://arxiv.org/abs/2105.05013) [code](https://github.com/BIT-DA/SDCA)**]
 
 - ***Thanks for their nice contribution.***
