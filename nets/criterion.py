@@ -79,41 +79,4 @@ class PixContrasrt(nn.Module):
 
     def forward(self, feature, label,iteration):
 
-        m = 1 - (iteration / self.max_epoch)
-
-        b,*_ = feature.shape
-        label = torch.unsqueeze(label,dim=1)
-
-
-        # 前景激活层
-        masked = feature * label
-
-        # 背景激活层
-        unmasked = feature * (1 - label)
-
-        #余弦对抗
-        # s_neg = 0.5 * nn.CosineSimilarity()(masked,(unmasked ))
-        # #loss = -torch.log2((s_neg + 1e-8))
-        # loss = s_neg.mean()
-        #
-        # return loss
-
-        # 以余弦距离来构建三元组损失
-
-        undist = nn.CosineSimilarity()(label, unmasked).mean()
-
-        maskdist = nn.CosineSimilarity()(label, masked).mean()
-
-
-
-        distloss = torch.where(
-            undist > maskdist + self.dist,
-            1.5 * undist + 0.8 * maskdist,
-            undist + 0.5 * maskdist
-        )
-
-
-
-        return torch.where( torch.tensor(iteration) < self.thresh,
-                    distloss,
-                    (m)/(1 - m + 1e-5) * distloss)
+        pass
